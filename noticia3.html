@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsGamer</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles_n.css">
+</head>
+
+<body>
+
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="nav-main">
+        <!-- Brand -->
+        <img src="https://sweetalert2.github.io/images/nyan-cat.gif" alt="TechNews Logo" class="nav-brand">
+        <!-- Left Nav -->
+        <ul class="nav-menu">
+            <li>
+            <a href="index.html" style="color:red;">Inicio</a>
+            </li>
+        </ul>
+        </nav>
+        <hr style="display: block; height: 1px;border: 0; border-top: 1px solid #900000;margin: 1em 0; padding: 0">
+
+        <div class="maingrid">
+
+            <div class="maingrid_leftcolumn">
+                <div style="text-align: center;">
+                    <img src="data:image/jpeg;base64,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" alt="" style="width:60%;">
+                </div>
+                <div>
+                    <h2>Otras noticias.</h2>
+                    <ul>
+                        <li> <a href="" style="font-size: 1.5em;"><u>¡Noticia del dia!</u></a> </li>
+                        <li> <a href="" style="font-size: 1.5em;"><u>¿The elder scrolls VI?</u></a> </li>
+                        <li> <a href="" style="font-size: 1.5em;"><u>>Lo que se espera de Breath of the wild II</u></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="maingrid_rightcolumn">
+                <h2 style="margin-top:5em;">The Elder Scrolls VI</h2><br>
+                <p>
+                    The Elder Scrolls 6 es uno de los títulos de Bethesda más esperados para la próxima generación, y a la par, uno de los misterios más 
+                    grandes de la empresa estadounidense. Quitando del teaser que vimos en el pasado E3 2018, no hemos vuelto a saber nada más, y es por 
+                    ello que los fans están ansiosos por saber los primeros detalles y la fecha de lanzamiento de The Elder Scrolls 6.
+
+                    Sabemos que The Elder Scrolls VI no se lanzará a corto plazo y la intención del pasado teaser quería dar a entender a los jugadores que 
+                    los juegos para un solo jugador no habían sido olvidados, pero mientras esperamos información oficial por parte de Bethesda, a través de 
+                    GameRant hemos conocido nuevos detalles de The Elder Scrolls 6 que supestamente habrían sido filtrados. Antes de mostraros al detalle esta 
+                    «nueva información», os recordamos que jefe de marketing de Bethesda, Pete Hines, afirmó que el nuevo juego de Indiana Jones no afectará al 
+                    lanzamiento de Starfield y The Elder Scrolls 6.
+                </p>
+                <h3 style="margin-top:3em;">Escrito por: RM</h3>
+                <h3 style="margin-bottom:3em">Fecha: 08/06/2021</h3>
+            </div>
+    
+        </div>
+
+    </div>
+    
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer">
+        <h3>NewsGamer Copyright</h3>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

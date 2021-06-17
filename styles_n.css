@@ -1,0 +1,17 @@
+.maingrid{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 50% 50%;   
+}
+
+.maingrid_leftcolumn{
+    display: grid;
+    height: 100%;
+    grid-auto-columns: auto;
+    grid-template-rows: 60% 40%;
+}
+
+.maingrid_rightcolumn{
+    height: 100%;
+    display: block;
+}
